@@ -40,18 +40,10 @@ This project aims to scrape book information from the Books to Scrape website us
 
 1.  Clone this repository:
     
-    bash
-    
-    Copy
-    
     `git clone https://github.com/yourusername/web-scraping-project.git cd web-scraping-project`
     
 
 2.  Install the required packages:
-    
-    bash
-    
-    Copy
     
     `pip install -r requirements.txt`
     
@@ -68,10 +60,6 @@ The BeautifulSoup implementation is contained in `beautifulsoup_scraper.py`.
 
 To run:
 
-bash
-
-Copy
-
 `python beautifulsoup_scraper.py`
 
 This script uses `requests` to fetch web pages and `BeautifulSoup` to parse the HTML content. It scrapes book data page by page and saves the results to a CSV file.
@@ -82,10 +70,6 @@ The Scrapy implementation is a separate project within the `scrapy_project` dire
 
 To run:
 
-bash
-
-Copy
-
 `cd scrapy_project scrapy crawl books`
 
 This implementation uses Scrapy's spider framework to crawl the website efficiently. It defines item types and uses pipelines for data processing.
@@ -95,10 +79,6 @@ This implementation uses Scrapy's spider framework to crawl the website efficien
 The Selenium implementation is contained in `selenium_scraper.py`.
 
 To run:
-
-bash
-
-Copy
 
 `python selenium_scraper.py`
 
